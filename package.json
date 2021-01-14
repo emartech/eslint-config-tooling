@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-tooling",
+  "name": "eslint-plugin-tooling",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
@@ -8,10 +8,20 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.13.0",
     "@typescript-eslint/parser": "^4.13.0",
-    "eslint": "^7.17.0",
     "eslint-config-emarsys": "^5.1.0",
     "eslint-config-prettier": "^7.1.0",
-    "eslint-plugin-prettier": "^3.3.1",
-    "prettier": "^2.2.1"
+    "eslint-plugin-chai-expect": "^2.2.0",
+    "eslint-plugin-chai-friendly": "^0.6.0",
+    "eslint-plugin-prettier": "^3.3.1"
+  },
+  "peerDependencies": {
+    "eslint": "^7.17.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.0.5"
+  },
+  "devDependencies": {
+    "eslint": "7.17.0",
+    "prettier": "2.2.1",
+    "typescript": "4.0.5"
   }
 }
